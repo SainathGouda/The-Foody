@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item android:id="@+id/nav_home"
+            android:title="Home"
+            android:icon="@drawable/ic_home"/>
+
+        <item android:id="@+id/nav_jokes"
+            android:title="Jokes"
+            android:icon="@drawable/ic_jokes"/>
+
+    </group>
+
+    <item android:title="Communicate">
+
+        <menu>
+
+            <item android:id="@+id/nav_share"
+                android:title="Share"
+                android:icon="@drawable/ic_share"/>
+
+            <item android:id="@+id/nav_rate_us"
+                android:title="Rate Us"
+                android:icon="@drawable/ic_rate"/>
+
+        </menu>
+
+    </item>
+
+    <item android:title="Account">
+
+        <menu>
+
+            <item android:id="@+id/nav_register"
+                android:title="Register"
+                android:icon="@drawable/ic_person"/>
+
+            <item android:id="@+id/nav_logout"
+                android:title="Logout"
+                android:icon="@drawable/ic_logout"/>
+
+        </menu>
+
+    </item>
+
+
+
+</menu>
